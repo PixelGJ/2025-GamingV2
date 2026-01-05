@@ -1,0 +1,53 @@
+h1{
+  text-align: center;
+  color:aliceblue
+}
+
+h2{
+  text-align: center;
+  color: aliceblue;
+}
+
+p {
+  color:aliceblue
+}
+
+body{
+    background-color:white
+}
+
+.game-entry img{
+  width: 180px;
+  height: auto;
+  display: block;
+}
+
+.game-title {
+  font-size: 1.2rem;
+}
+.games-grid{
+    display:flex;
+    flex-direction: column;
+    gap:80px;
+}
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.game-entry {
+  display: grid;
+  grid-template-columns: 180px 1fr; 
+  align-items: center;
+  gap: 20px;
+}
+.border{
+    width: 8.5in;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color:rgb(35, 35, 116);
+    padding: 1in;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
